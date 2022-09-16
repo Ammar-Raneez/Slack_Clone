@@ -1,0 +1,28 @@
+body {
+	--slack-color: #3f0f40;
+	overflow: hidden;
+}
+
+.app__body {
+	display: flex;
+	height: 100vh;
+}
+.app__welcomeMsg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 10%;
+	font-size: 30px;
+	font-weight: 600;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-animation: fadein 3s;
+}
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

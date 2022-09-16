@@ -1,0 +1,32 @@
+.message {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	-webkit-animation: fadein 100ms;
+}
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.message > img {
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	object-fit: contain;
+}
+
+.message__info {
+	padding-left: 10px;
+}
+
+.message__timestamp {
+	color: gray;
+	font-weight: 300;
+	font-size: 13px;
+	margin-left: 8px;
+}
